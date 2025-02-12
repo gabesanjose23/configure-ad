@@ -71,25 +71,57 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="Screenshot 2025-02-12 042436.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<p>Step 8- Open up the Window server then on the window search for Active Directory User and Computers.Right click mydomain.com ,add new and organizational unit after that make a name for it.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="Screenshot 2025-02-12 042832.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>Step 9- After you make the organizational unit add a user.
+</p>
+<br />
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="Screenshot 2025-02-12 043027.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>Step 10- Make the username and password and here you can set it so when they login next time you can make it so they have to put in a new password and other configurations.
+</p>
+<br />
+
+<p>
+<img src="Screenshot 2025-02-12 043316.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>Step 11- Once you make the account you have to set it in a group. This one is an Admin so I right click on the user and make it a member of the admin group and apply the changes.Here you can also configure a lot of things about the account.
+</p>
+<br />
+
+<p>
+<img src="Screenshot 2025-02-12 044125.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>Step 12- Go to remote desktop connection and connect to the window machine go to the setting and click on advance name change.Once your there click on change and make it from workgroup to Domain and change it to the name of your domain.Put in the username and password for one of the account in the domain.
+</p>
+<br />
+
+<p>
+<img src="Screenshot 2025-02-12 044500.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>Step 13- You go back to the server and back into the Active Directory User and Computers then a new file name computers will pop up with the computer you just login on that domain.
+</p>
+<br />
+
+<p>
+<img src="Screenshot 2025-02-12 045327.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>Step 14- While you are on the server or if you are an admin you can search up group Policy Management and set group policy for different organizational units or groups/people.
+</p>
+<br />
+
+<p>
+<img src="Screenshot 2025-02-12 045822.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>Step 15- While you are on the server or an admin you can also check logs for security or troubleshooting by clicking on the window key and searching for the Event viewer.
 </p>
 <br />
